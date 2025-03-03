@@ -18,6 +18,9 @@ This will be accomplished through a detailed registration, verification, and ser
 * The AI or service documents its capabilities and attributes in the form of Verifiable Credentials (VCs). These credentials are cryptographically signed to ensure authenticity and integrity.  
 * The registration form contains a comprehensive list of key-value pairs for AIs and services to present, allowing for automatic service discovery among machines. The following parameters are considered during capability declaration:
 
+<details>
+<summary> <b>Sample JSON</b> </summary>
+
 ```json
 {
     "capabilities": {
@@ -198,6 +201,9 @@ This will be accomplished through a detailed registration, verification, and ser
     }
 }
 ```
+
+</details>
+
 
 * The VCs are stored in a decentralized manner and linked to the DID, allowing other entities to verify the claims without contacting a central authority.  
 * Machines use JSON Web Tokens (JWTs) to transmit credentials securely. These tokens can be decoded back into VCs, allowing easy manipulation and verification of data.
