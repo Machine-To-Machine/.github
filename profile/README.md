@@ -1,4 +1,4 @@
-# Machine-To-Machine 
+# M2M Beta Technical Overview
 
 ## Mission
 
